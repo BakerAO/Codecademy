@@ -103,6 +103,9 @@ function getRoundWinner(roundNumber){
                 else if (playerOneMoveOneValue < playerTwoMoveOneValue){
                     return "Player Two";
                 }
+                else {
+                    return null;
+                }
             }
             else if (playerTwoMoveOneType === 'paper'){
                 return "Player Two";
@@ -127,6 +130,9 @@ function getRoundWinner(roundNumber){
                 else if (playerOneMoveOneValue < playerTwoMoveOneValue){
                     return "Player Two";
                 }
+                else {
+                    return null;
+                }
             }
             else if (playerTwoMoveOneType === 'scissors'){
                 return "Player Two";
@@ -150,6 +156,9 @@ function getRoundWinner(roundNumber){
                 }
                 else if (playerOneMoveOneValue < playerTwoMoveOneValue){
                     return "Player Two";
+                }
+                else {
+                    return null;
                 }
             }
             else if (playerTwoMoveOneType === 'rock'){
@@ -182,6 +191,9 @@ function getRoundWinner(roundNumber){
                 else if (playerOneMoveTwoValue < playerTwoMoveTwoValue){
                     return "Player Two";
                 }
+                else {
+                    return null;
+                }
             }
             else if (playerTwoMoveTwoType === 'paper'){
                 return "Player Two";
@@ -206,6 +218,9 @@ function getRoundWinner(roundNumber){
                 else if (playerOneMoveTwoValue < playerTwoMoveTwoValue){
                     return "Player Two";
                 }
+                else {
+                    return null;
+                }
             }
             else if (playerTwoMoveTwoType === 'scissors'){
                 return "Player Two";
@@ -229,6 +244,9 @@ function getRoundWinner(roundNumber){
                 }
                 else if (playerOneMoveTwoValue < playerTwoMoveTwoValue){
                     return "Player Two";
+                }
+                else {
+                    return null;
                 }
             }
             else if (playerTwoMoveTwoType === 'rock'){
@@ -261,6 +279,9 @@ function getRoundWinner(roundNumber){
                 else if (playerOneMoveThreeValue < playerTwoMoveThreeValue){
                     return "Player Two";
                 }
+                else {
+                    return null;
+                }
             }
             else if (playerTwoMoveThreeType === 'paper'){
                 return "Player Two";
@@ -285,6 +306,9 @@ function getRoundWinner(roundNumber){
                 else if (playerOneMoveThreeValue < playerTwoMoveThreeValue){
                     return "Player Two";
                 }
+                else {
+                    return null;
+                }
             }
             else if (playerTwoMoveThreeType === 'scissors'){
                 return "Player Two";
@@ -308,6 +332,9 @@ function getRoundWinner(roundNumber){
                 }
                 else if (playerOneMoveThreeValue < playerTwoMoveThreeValue){
                     return "Player Two";
+                }
+                else {
+                    return null;
                 }
             }
             else if (playerTwoMoveThreeType === 'rock'){
